@@ -13,8 +13,8 @@ public class Main {
 
     private Scanner teclado = new Scanner(System.in);
 
-    private final ArtistaRepository artistaRepository;
-    private final MusicaRepository musicaRepository;
+    private ArtistaRepository artistaRepository;
+    private MusicaRepository musicaRepository;
 
     public Main(ArtistaRepository artistaRepository, MusicaRepository musicaRepository) {
         this.artistaRepository = artistaRepository;
